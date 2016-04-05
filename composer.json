@@ -1,0 +1,25 @@
+{
+    "name": "rmartignoni/oauth2-strava",
+    "description": "Strava OAuth2 Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raphael Martignoni",
+            "email": "rmartignoni@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rmartignoni\\OAuth2\\Strava\\Client\\": "src/"
+        }
+    },
+    "require": {
+        "league/oauth2-client": "1.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.24"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
